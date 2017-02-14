@@ -1,7 +1,8 @@
 // pandora_box
 
 #include <Servo.h>     
-Servo myservo; int LED = 3;      //Set the LED light to be digital pin 3 
+Servo myservo;
+int LED = 3;      //Set the LED light to be digital pin 3 
 int val = 0;                     // val stores analog ambient light sensor’s value 
 int pos = 0; 
 int light =0; 
